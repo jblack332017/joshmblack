@@ -34,7 +34,7 @@ var smolder = (function()
 `^^<span class="attribute">color</span>:<span class="value"> 20%</span>;
 `^}
 ``
-*@@ Let's light this puppy!
+*@@ Let's light this puppy.
 ``
 <span class="bash">-bash-4.1$</span> fullBlast@ 
 ``
@@ -54,9 +54,9 @@ Title: Big Kahuna@
 `Footer@
 ``
 `*
-`* I am looking for a summer internship. <span onclick="window.open('mailto:josh.m.black.work@gmail.com');">Contact me!</span>
+`* I am looking for a summer internship. <span onclick="window.open('mailto:josh.m.black.work@gmail.com');">Contact me</span>
 `*
-`* P.S. There are several Easter Eggs on this page. See how many you can find!
+`* P.S. There are several Easter Eggs on this page. See how many you can find.
 `* -Josh
 
 
