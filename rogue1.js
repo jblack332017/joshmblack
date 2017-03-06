@@ -213,7 +213,7 @@ function shoot(gun){
   }
   else if (gun.getAttribute('id')=="gun3")
   {
-    content.innerHTML="<h2>Thats is it! You're going to jail buddy.</h2>";
+    content.innerHTML="<h2>That is it! You're going to jail buddy.</h2>";
 
     setTimeout(function(){ 
 

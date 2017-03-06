@@ -22,16 +22,16 @@ var smolder = (function()
 `
 *^^color?
 ``^@<span class="class">.bash</span>{
-`^^<span class="attribute">color</span>:<span class="value"> 20%</span>;
+`^^<span class="attribute">color</span>:<span class="value"> #FF0000</span>;
 `^}
 `^<span class="class">.id</span>{
-`^^<span class="attribute">color</span>:<span class="value"> 20%</span>;
+`^^<span class="attribute">color</span>:<span class="value"> #A7EC21</span>;
 `^}
 `^<span class="class">.class</span>{
-`^^<span class="attribute">color</span>:<span class="value"> 20%</span>;
+`^^<span class="attribute">color</span>:<span class="value"> #FF007F</span>;
 `^}
 `^<span class="class">.attribute</span>{
-`^^<span class="attribute">color</span>:<span class="value"> 20%</span>;
+`^^<span class="attribute">color</span>:<span class="value"> #64D5EA</span>;
 `^}
 ``
 *@@ Let's light this puppy.
@@ -54,10 +54,10 @@ Title: Big Kahuna@
 `Footer@
 ``
 `*
-`* I am looking for a summer internship. <span onclick="window.open('mailto:josh.m.black.work@gmail.com');">Contact me</span>
+`* I am looking for a summer internship. <span class="bash" onclick="window.open('mailto:josh.m.black.work@gmail.com');">Contact me.</span>
 `*
 `* P.S. There are several Easter Eggs on this page. See how many you can find.
-`* -Josh
+`* - <span class="id">Josh</span>
 
 
 
