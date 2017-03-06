@@ -2,7 +2,7 @@ var smolder = (function()
 {/*
 *
 `
- * Hi. I am Josh Black. I'm from Texas and I am finishing my bioinformatics degree with a minor in computer science. 
+ * Hi. I am Josh Black. I'm from Texas and I am finishing my bioinformatics degree with a minor in computer science from BYU. 
 `
  * This page looks rather plain. Let's make it better...
 `
