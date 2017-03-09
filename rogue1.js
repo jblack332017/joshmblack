@@ -4,6 +4,7 @@ var $sizzle = $('#sizzleReel');
     var counter = 0; //the character number in smolder.
     var action =0; //The action number.
 var interval;
+var skip = false;
 
 $( document ).ready(function() {
     console.log( "ready!" );
@@ -88,8 +89,11 @@ function doAction(){
   
   if (action==0)
   {
+    if (!skip)
+    {
     clearInterval(interval);
     interval = setInterval(logging,15);
+  }
     console.log("change");
 $("#sizzleReelContainer").animate({ 
     backgroundColor:'rgb(48, 48, 48)',
@@ -104,14 +108,20 @@ $("#sizzleReelContainer").animate({
 
    if (action==1)
    {
+      if (!skip)
+      {
       clearInterval(interval);
       interval = setInterval(logging,70);
+    }
    }
 
    if(action==2)
    {
+    if (!skip)
+      {
       clearInterval(interval);
       interval = setInterval(logging,15);
+    }
    }
 
    if (action==3)
@@ -142,15 +152,21 @@ $("#sizzleReelContainer").animate({
 
    if(action==4)
    {
+    if (!skip)
+      {
       clearInterval(interval);
       interval = setInterval(logging,80);
+    }
    }
 
    if(action==5)
    {
+    if (!skip)
+      {
       clearInterval(interval);
       interval = setInterval(logging,15);
       // $("#sizzleReelContainer").addClass("w3-half");
+    }
    }
   
    if (action==6)
@@ -190,6 +206,19 @@ function addColor(){
         return this; // for chaining...
     }
 })(jQuery);
+
+function skipAnimation(){
+  clearInterval(interval);
+  skip = true;
+
+  while (counter +1 < smolder.length)
+  {
+    logging();
+  }
+      
+      
+
+}
 
 function classified(){
   alert("That is classified information.");

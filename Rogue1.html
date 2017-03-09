@@ -28,6 +28,7 @@
 <p id="sizzleReel">
  </p>
  </div>
+ <div onclick="skipAnimation()" id="animateButton"> Skip Animation </div>
  </div>
 <!-- <div class="w3-half" style="opacity: 0">p</div>
  --><div id="hidden" class="hide">
@@ -42,9 +43,9 @@
 
   <div class="w3-padding-32">
     <div class="w3-btn-bar w3-border w3-show-inline-block">
-      <a target="_blank"  href="Joshua_M_Black.pdf" class="w3-btn">Resume</a>
+      <a href="Joshua_M_Black.pdf" class="w3-btn">Resume</a>
       <a onclick="$('#projects').goTo();" id="classified" target="_self"  href="#" class="w3-btn ">Projects</a>
-      <a onclick="window.open('mailto:josh.m.black.work@gmail.com');" id="top_secret"  href="#" class="w3-btn">Contact</a>
+      <a onclick="$('#contact').goTo();" id="top_secret"  href="#" class="w3-btn">Contact</a>
     </div>
   </div>
 </header>
@@ -96,8 +97,9 @@ that are too similar to do so through visual inspection.<br><a href="https://git
 <p>Copyright Josh Black Estate: 31337</p>
 <p>Icon made by Freepik from
 www.flaticon.com</p>
-  <a target="_blank"  href="https://www.linkedin.com/in/joshua-michael-black-3a46b0104
+  <a id="contact" target="_blank"  href="https://www.linkedin.com/in/joshua-michael-black-3a46b0104
 " class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+<a target="_blank"  onclick="window.open('mailto:josh.m.black.work@gmail.com');" class="w3-hover-text-indigo"><i class="fa fa-envelope"></i></a>
 
 </footer>
 

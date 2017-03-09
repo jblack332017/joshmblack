@@ -15,6 +15,13 @@ header, footer {
     padding-bottom: 30px;
     opacity: 0.60;
 }
+
+#animateButton{
+	float: right;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 2px;
+}
 .bash{
 
 }
