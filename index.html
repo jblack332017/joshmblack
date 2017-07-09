@@ -33,7 +33,7 @@
  <div onclick="skipAnimation()" id="animateButton"> Skip Animation </div>
 
 <!-- <div class="w3-half" style="opacity: 0">p</div>
- --><div id="hidden" class="hide">
+--><div id="hide-main" class="hide-main">
 <!-- !PAGE CONTENT! -->
 <div  >
 
@@ -45,8 +45,9 @@
 
   <div class="w3-padding-32">
     <div class="w3-btn-bar w3-border w3-show-inline-block">
-      <a href="Joshua_M_Black.pdf" class="w3-btn">Resume</a>
+      <a href="Joshua_M_Black.pdf" target="_blank" class="w3-btn">Resume</a>
       <a onclick="$('#projects').goTo();" id="classified" target="_self"  href="#" class="w3-btn ">Projects</a>
+      <a onclick="$('#skills').goTo();" id="top_secret"  href="#" class="w3-btn">Skills</a>
       <a onclick="$('#contact').goTo();" id="top_secret"  href="#" class="w3-btn">Contact</a>
     </div>
   </div>
@@ -130,23 +131,253 @@
 
   <div class="white-background">
     <div class="content">
-<h1 class="section-heading">Skills</h1>
-  <p class="quote">To be honest, I get a little nervous every time I have to spell beleive...</p>
+<h1 class="section-heading" id="skills">Skills</h1>
+  <!-- <p class="quote">To be honest, I get a little nervous every time I have to spell beleive...</p> -->
   <hr>
 
   <div class="w3-half">
+
+    <div class="skill-container">
+      <span class="skill-title">HTML</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">Bash</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">CSS</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+
     <div class="skill-container">
       <span class="skill-title">Java</span>
-      <span class="skill-stars"><span class="glyphicon glyphicon-star"></span></span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
     </div>
+
+    <div class="skill-container">
+      <span class="skill-title">Python</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">C++</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">RESTful</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">Drupal</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">ReactJS</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+  <div class="skill-container">
+    <span class="skill-title">jQuery</span>
+    <span class="skill-stars">
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star-empty"></span>
+    </span>
   </div>
 
-  <div class="w3-half">
-    <div class="skill-container">
-      <span class="skill-title">Java</span>
-      <span class="skill-stars">5</span>
-    </div>
+
+
   </div>
+  <div class="w3-half">
+
+    <div class="skill-container">
+      <span class="skill-title">SQL</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">Git</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+    <div class="skill-container">
+      <span class="skill-title">PHP</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+      <div class="skill-container">
+        <span class="skill-title">JavaScript</span>
+        <span class="skill-stars">
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star-empty"></span>
+          <span class="glyphicon glyphicon-star-empty"></span>
+        </span>
+      </div>
+
+    <div class="skill-container">
+      <span class="skill-title">AngularJS</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+
+    <div class="skill-container">
+      <span class="skill-title">Ruby on Rails</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+
+    <div class="skill-container">
+      <span class="skill-title">No SQL</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+    <div class="skill-container">
+      <span class="skill-title">AWS</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+    <div class="skill-container">
+      <span class="skill-title">Node.js</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+
+    <div class="skill-container">
+      <span class="skill-title">Docker</span>
+      <span class="skill-stars">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+      </span>
+    </div>
+
+
+
+  </div>
+
+
 
 </div>
 </div>
@@ -190,12 +421,17 @@
   <div class="content">
   <h1 class="section-heading" id="contact">Contact</h1>
   <hr>
+  <div class="contacts">
+  <a  target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/in/joshua-michael-black-3a46b0104" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+  <a target="_blank" rel="noopener noreferrer"  href="#" onclick="window.open('mailto:josh.m.black.work@gmail.com');" class="w3-hover-text-green"><i class="fa fa-envelope"></i></a>
+  <a target="_blank" rel="noopener noreferrer"  href="https://github.com/jblack332017" class="w3-hover-text-red"><i class="fa fa-github"></i></a>
+</div>
+
+  <hr>
 <p>Copyright Josh Black Estate: 31337</p>
 <p>Icon made by Freepik from
 www.flaticon.com</p>
-  <a id="contact" target="_blank"  href="https://www.linkedin.com/in/joshua-michael-black-3a46b0104
-" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
-<a target="_blank"  onclick="window.open('mailto:josh.m.black.work@gmail.com');" class="w3-hover-text-indigo"><i class="fa fa-envelope"></i></a>
+
 </div>
 </footer>
 

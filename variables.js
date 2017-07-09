@@ -2,7 +2,7 @@ var smolder = (function()
 {/*
 *
 `
- * Hi. I am Josh Black. I'm from Texas and I am finishing my bioinformatics degree with a minor in computer science from BYU. 
+ * Hi. I am Josh Black. I'm from Texas and I am finishing my bioinformatics degree with a minor in computer science from BYU.
 `
  * This page looks rather plain. Let's make it better...
 `
@@ -36,7 +36,7 @@ var smolder = (function()
 ``
 *@@ Let's light this puppy.
 ``
-<span class="bash">-bash-4.1$</span> fullBlast@ 
+<span class="bash">-bash-4.1$</span> fullBlast@
 ``
 Title: Big Kahuna@
 `Title: Josh Black@
@@ -47,14 +47,14 @@ Title: Big Kahuna@
 `^^<span class="attribute">height</span>: <span class="value">75px</span>;
 `^}
 ``
-`Links: Resume, Projects, Contact@
+`Links: Resume, Projects, Skills, Contact@
 `About@
 `Projects@
 `Work Experience@
 `Footer@
 ``
 `*
-`* I am looking for a summer internship. <span class="bash" onclick="window.open('mailto:josh.m.black.work@gmail.com');">Contact me.</span>
+`* I love my job, but I am always interested in new opportunities. <span class="bash" onclick="window.open('mailto:josh.m.black.work@gmail.com');">Contact me.</span>
 `*
 `* P.S. There are several Easter Eggs on this page. See how many you can find.
 `* - <span class="id">Josh</span>

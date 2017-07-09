@@ -172,7 +172,7 @@ $("#sizzleReelContainer").animate({
    if (action==6)
    {
     console.log("show");
-    $("#hidden").css({
+    $("#hide-main").css({
         "opacity":"0",
         "display":"block",
     }).show().animate({opacity:1})
