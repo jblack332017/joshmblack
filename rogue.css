@@ -6,41 +6,112 @@ body,h1 {
 h1 {
 	letter-spacing: 6px;
 }
+.section-heading{
+	color:rgb(167, 236, 33);
+	font-size: 52px;
+	text-align: center;
+}
+
+.item-heading{
+	color:rgb(196, 140, 255);
+	font-size: 19px;
+	text-align: center;
+}
+.yellow-background .item-heading {
+	color: rgb(167, 236, 33);
+}
+
+.half-picture{
+	max-width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.img-wrap .half-picture{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.img-wrap:hover .picture{
+	opacity: 0.30;
+}
+
+.img-wrap ul{
+	list-style-type: none;
+}
+
+.white-background{
+	background-color: white;
+	overflow: auto;
+	padding-bottom: 50px;
+}
+footer .section-heading{
+	color:rgb(196, 140, 255);
+}
+.yellow-background .section-heading{
+	color:rgb(196, 140, 255);
+}
+.quote{
+	color: rgb(100, 213, 234);
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+}
+
+hr {
+	margin: 30px 0px;
+	border-color: #727878;
+	opacity: 0.15;
+}
+header {
+	opacity: 0.60;
+}
 header, footer {
 	text-align: center;
 	padding: 0.01em 16px;
-    margin-top: 10%;
-    margin-bottom: 16px;
     padding-top: 30px;
     padding-bottom: 30px;
-    opacity: 0.60;
+}
+
+.yellow-background{
+	background: #434242;
+	padding-top: 40px;
+	color:#FFFFFF;
+	padding-bottom: 50px;
+	overflow: auto;
 }
 
 #animateButton{
 	float: right;
 	margin: 10px;
 	border: 1px solid black;
-	padding: 2px;
+	padding: 5px;
+	position: re;
+	right: 10px;
+	bottom: 5px;
 }
-.bash{
 
-}
 #sizzleReelContainer{
 	display: inline-block;
-    position: inherit;
+    position: relative;
     top: 2%;
     bottom: 2%;
     margin: auto;
-    overflow: scroll;
+    overflow-y: auto;
     max-width: 100%;
     width: 100%;
-    max-height: 300px;
+    height: 80vh;
+}
+::-webkit-scrollbar {
+width: 0px;  /* remove scrollbar space */
+background: transparent;  /* optional: just make scrollbar invisible */
 }
 .hide{
 	display: none;
 }
 #hidden{
-	padding: 2%;
+	/*padding: 2%;*/
 	display: none;
 	float: right;
 	max-width: 100%;
@@ -55,10 +126,9 @@ header, footer {
 	font-family: courier new;
 }
 
-
-
 footer {
-	background-color: #f1f1f1;
+	background-color: #434242;
+	color:#FFFFFF;
 }
 
 .xlarge{
@@ -68,11 +138,11 @@ footer {
 .content{
 	margin: auto;
 	max-width: 1000px;
+	padding: 5px;
 }
 
 .main-info{
 	text-align: left;
-	padding-bottom: 50px;
 }
 
 textarea {
@@ -91,13 +161,61 @@ textarea {
 	width: 75px;
 	height: 75px;
 	visibility: hidden;
-	
+
 }
 
 .w3-half{
-	overflow:scroll!important;
     -webkit-transition: all 0.5s ease!important;
     -moz-transition: all 0.5s ease!important;
     -o-transition: all 0.5s ease!important;
     transition: all 0.5s ease!important;
+}
+
+.w3-col{
+	margin-bottom: 20px;
+}
+
+.img-description {
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+
+  /* transition effect. not necessary */
+}
+
+.w3-half .img-wrap{
+	position: relative;
+	max-width: 80%;
+	margin: auto;
+}
+
+.w3-col .img-wrap{
+	position: relative;
+	margin: auto;
+	display: table;
+}
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+}
+
+.skill-title{
+	float: left;
+}
+.skill-stars{
+	float: right;
+}
+
+.skill-container{
+	width: 60%;
+	position: relative;
+	margin: auto;
+	display: table;
+}
+.skill-container:hover{
+	background-color: #E8E8EE;
 }

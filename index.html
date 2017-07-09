@@ -12,6 +12,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="variables.js"></script>
 <script type="text/javascript" src="rogue1.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
@@ -21,19 +22,20 @@
 
 
 
+
+
 <body>
 <div class="w3-row">
-<div class="" >
 <div class="w3-top" id="sizzleReelContainer">
 <p id="sizzleReel">
  </p>
  </div>
  <div onclick="skipAnimation()" id="animateButton"> Skip Animation </div>
- </div>
+
 <!-- <div class="w3-half" style="opacity: 0">p</div>
  --><div id="hidden" class="hide">
 <!-- !PAGE CONTENT! -->
-<div class="content" >
+<div  >
 
 <!-- Header -->
 <header>
@@ -51,20 +53,110 @@
 </header>
 <!-- Main INfo -->
 <div id="main" class="main-info">
-<h1>About</h1>
-  <p>To be honest, I get a little nervous every time I have to spell beleive...</p>
-  <h1 id="projects">Projects</h1>
-  <p>I am working on a <a target="_blank"  href="Josh_ORCA.pdf">species discernment software</a> that will lead to cheaper species identification. The purpose of this project is to create software that analyzes the genomes of two similar animal species to
-determine small, similar, but not identical, regions that can be used to distinguish the species of animal specimen
-that are too similar to do so through visual inspection.<br><a href="https://github.com/jblack332017/identification.git" target="_blank">Main Repository</a> <a href="https://github.com/jblack332017/identificationjava.git" target="_blank">Java Repository</a></p>
+
+  <div class="yellow-background">
+    <div class="content">
+    <h1 class="section-heading" id="projects">Projects</h1>
+    <hr>
+    <div class="w3-half ">
+      <h2 class="item-heading">InstaChannels</h2>
+      <div class="img-wrap">
+        <img src="pictures/instachannels.png" class="half-picture picture">
+        <ul class="img-description">
+          <li>Ruby on Rails</li>
+          <li>RESTful API</li>
+          <li>Facebook Graph API</li>
+          <li>Facebook Authentication</li>
+          <li>ReactJS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="w3-half">
+      <h2 class="item-heading">Hacking Challenge</h2>
+      <a href="http://ec2-35-164-188-83.us-west-2.compute.amazonaws.com:31337/" target="_blank" rel="noopener noreferrer">
+      <div class="img-wrap">
+        <img src="pictures/hacking.png" class="half-picture picture">
+        <ul class="img-description">
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>Github Authentication</li>
+        </ul>
+      </div>
+    </a>
+    </div>
+    <div class="w3-col">
+      <h2 class="item-heading">Species Identification</h2>
+      <a href="https://github.com/jblack332017/identificationjava" target="_blank" rel="noopener noreferrer">
+      <div class="img-wrap">
+        <img src="pictures/pcr.png" class="half-picture picture">
+        <ul class="img-description">
+          <li>Java</li>
+          <li>Python</li>
+          <li>PCR</li>
+        </ul>
+      </div>
+    </a>
+    </div>
+    <div class="w3-half">
+      <h2 class="item-heading">Project Seel</h2>
+      <a href="http://education.byu.edu/seel" target="_blank" rel="noopener noreferrer">
+      <div class="img-wrap">
+        <img src="pictures/seel.png" class="half-picture picture">
+        <ul class="img-description">
+          <li>Python</li>
+          <li>MySQL</li>
+          <li>PHP</li>
+          <li>Drupal</li>
+        </ul>
+      </div>
+    </a>
+      </div>
+    <div class="w3-half">
+      <h2 class="item-heading">Building Social Skills With Books</h2>
+      <a href="http://education.byu.edu/social-learning" target="_blank" rel="noopener noreferrer">
+      <div class="img-wrap">
+        <img src="pictures/buildingsocialskills.png" class="half-picture picture">
+        <ul class="img-description">
+          <li>Drupal</li>
+        </ul>
+      </div>
+    </a>
+      </div>
+  </div>
 
 
-  <p>I was the lead developer for the BYU McKay School of Education Systematic and Engaging Early Literary <a target="_blank"  href="http://www.education.byu.edu/seel">Lesson Library</a>. During my time I helped automate lesson plan creation and conversion to save future developers hundreds of working hours a year. Developers now concentrate on page improvements.</p>
+  </div>
+
+
+  <div class="white-background">
+    <div class="content">
+<h1 class="section-heading">Skills</h1>
+  <p class="quote">To be honest, I get a little nervous every time I have to spell beleive...</p>
+  <hr>
+
+  <div class="w3-half">
+    <div class="skill-container">
+      <span class="skill-title">Java</span>
+      <span class="skill-stars"><span class="glyphicon glyphicon-star"></span></span>
+    </div>
+  </div>
+
+  <div class="w3-half">
+    <div class="skill-container">
+      <span class="skill-title">Java</span>
+      <span class="skill-stars">5</span>
+    </div>
+  </div>
+
+</div>
+</div>
 
   <!-- <textarea onblur="complement(this)" id="complement" >I once made a DNA complement generator. Try it out for yourself.
   NOTE: 'A', 'T', 'C' and, 'G' are the codons for DNA. Deselect the box to start the conversion.</textarea> -->
-
-  <h1>Work Experience</h1>
+  <!-- <div class="yellow-background">
+    <div class="content">
+  <h1 class="section-heading">Work Experience</h1>
+  <hr>
   <p>Research Assistant</p>
   <ul>
     <li>Design new organism identification software to reduce $1000 for each identification</li>
@@ -86,20 +178,25 @@ that are too similar to do so through visual inspection.<br><a href="https://git
 
 </div>
 <img alt="magicWord" onclick="magicWord()" class="magicWord" src="YouDidn'tSayTheMagicWord.gif">
+</div> -->
+
+
 
 
 <!-- End Page Content -->
-</div>
 
 <!-- Footer -->
 <footer >
+  <div class="content">
+  <h1 class="section-heading" id="contact">Contact</h1>
+  <hr>
 <p>Copyright Josh Black Estate: 31337</p>
 <p>Icon made by Freepik from
 www.flaticon.com</p>
   <a id="contact" target="_blank"  href="https://www.linkedin.com/in/joshua-michael-black-3a46b0104
 " class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
 <a target="_blank"  onclick="window.open('mailto:josh.m.black.work@gmail.com');" class="w3-hover-text-indigo"><i class="fa fa-envelope"></i></a>
-
+</div>
 </footer>
 
 </div>

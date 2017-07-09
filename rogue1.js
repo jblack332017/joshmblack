@@ -1,4 +1,4 @@
-  
+
 var scrolled = false;
 var $sizzle = $('#sizzleReel');
     var counter = 0; //the character number in smolder.
@@ -23,7 +23,7 @@ var logging = function(){
           var tag = char;
           while (char!='>')
           {
-            counter++;            
+            counter++;
             tag +=smolder.charAt(counter);
             char = smolder.charAt(counter);
           }
@@ -50,13 +50,13 @@ var logging = function(){
         }
         else if (char=='@')
         {
-          
+
           doAction(action);
         }
         else
         {
           $sizzle.append(char);
-        } 
+        }
 
       updateScroll();
 
@@ -70,7 +70,7 @@ var logging = function(){
         if(counter +1 === smolder.length) {
             clearInterval(interval);
         }
-    
+
 
 }
 
@@ -86,7 +86,7 @@ function updateScroll(){
     }
 }
 function doAction(){
-  
+
   if (action==0)
   {
     if (!skip)
@@ -95,14 +95,14 @@ function doAction(){
     interval = setInterval(logging,15);
   }
     console.log("change");
-$("#sizzleReelContainer").animate({ 
-    backgroundColor:'rgb(48, 48, 48)',
+$("#sizzleReelContainer").animate({
+    backgroundColor:'#434242',
     color: 'white',
-  }, 1500 ); 
-  $('#sizzleReelContainer').css({"border": "0px solid black"}).animate({
-        borderWidth: '4px',
-        borderColor: '#ccc'
-    },500);
+  }, 1500 );
+  // $('#sizzleReelContainer').css({"border": "0px solid black"}).animate({
+  //       borderWidth: '4px',
+  //       borderColor: '#ccc'
+  //   },500);
 
    }
 
@@ -126,27 +126,27 @@ $("#sizzleReelContainer").animate({
 
    if (action==3)
    {
-   
-      $(".attribute").animate({ 
+
+      $(".attribute").animate({
     color: '#64D5EA'
   }, 1500 );
 
-      $(".class").animate({ 
+      $(".class").animate({
     color: '#FF007F'
   }, 1500 );
-      $(".id").animate({ 
+      $(".id").animate({
     color: '#A7EC21'
   }, 1500 );
-      $(".bash").animate({ 
+      $(".bash").animate({
     color: '#FF0000'
   }, 1500 );
-      $(".comment").animate({ 
+      $(".comment").animate({
     color: '#E7DFDD'
   }, 1500 );
-      $(".value").animate({ 
+      $(".value").animate({
     color: '#C48CFF'
   }, 1500 );
-   
+
 
    }
 
@@ -168,14 +168,14 @@ $("#sizzleReelContainer").animate({
       // $("#sizzleReelContainer").addClass("w3-half");
     }
    }
-  
+
    if (action==6)
    {
     console.log("show");
     $("#hidden").css({
         "opacity":"0",
         "display":"block",
-    }).show().animate({opacity:1})   
+    }).show().animate({opacity:1})
 }
 
 
@@ -215,8 +215,8 @@ function skipAnimation(){
   {
     logging();
   }
-      
-      
+
+
 
 }
 
@@ -244,10 +244,10 @@ function shoot(gun){
   {
     content.innerHTML="<h2>That is it! You're going to jail buddy.</h2>";
 
-    setTimeout(function(){ 
+    setTimeout(function(){
 
     window.location = "https://1.bp.blogspot.com/_1oA6knUJcmc/THSNXt1USLI/AAAAAAAAA68/aakuJmkxPdY/s1600/023.JPG";
-    }, 3000); 
+    }, 3000);
 
   }
 }
@@ -260,10 +260,10 @@ function magicWord(){
 
 
 function complement(text){
-  
 
 
-    reverseSeq = document.getElementById('complement').value; 
+
+    reverseSeq = document.getElementById('complement').value;
 
     var complementSeq='';
 for (q in reverseSeq){
@@ -293,13 +293,6 @@ for (q in reverseSeq){
   }
 
   complementSeq.split("").reverse().join("");
-  
+
   document.getElementById("complement").value=complementSeq;
 }
-
-  
-
-
-
-
-
